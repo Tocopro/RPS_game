@@ -1,0 +1,106 @@
+/*-------------background color for the webpage-----------*/
+body
+{
+    background-color: gold;
+
+}
+/*-----------aligning the webpage heading -------------------*/
+h1
+{
+    text-align: center;
+}
+/*----------------brief paragraph of how to play the game------------*/
+#text1
+{
+    text-align: left;
+    margin-left: 350px;
+}
+/*---------------container for the flexbox that contains the button for all plays ----------------*/
+#container1
+{
+    display: flex;
+    border: solid rgb(17, 236, 17);
+    justify-content: center;
+    padding: 20px;
+    width: 500px;
+    margin-left: 350px;
+    border-width: 5px;
+    border-radius: 8px;
+}
+/*---------------------button styling-----------------------------*/
+#rock
+{
+   padding: 20px;
+   margin: 20px;
+   text-align: center;
+   font-weight: bold;
+
+}
+#paper
+{
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+
+}
+#scissors
+{
+    padding: 20px;
+    margin: 20px;
+    font-weight: bold;
+
+}
+/*--------------------------javascript display of the players score and computer score-------------*/
+.computer_score
+{    
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 17px;        
+}
+.player_score
+{
+    display: inline-block;
+    padding-right: 5px; 
+    font-size: 17px;      
+}
+/*-----------------------------container for flexbox that contains the players output----------------------*/
+.container2
+{
+    margin-top: 20px;
+    display: flex;
+    border: solid transparent;
+    width: 400px;
+    margin-left: 350px;
+    padding-left: 50px;
+}
+/*-----------------this styling enables there to be space in the inline block of player and computer-----------------*/
+.middle_space
+{
+    width: 150px;
+}
+.middle_space1
+{
+    width: 20px;
+}
+/*--------------------container that has the flexbox containing the number of plays-----------------*/
+.container3
+{
+    display: flex;
+    border: solid transparent;
+    width: 400px;    
+    margin-left: 400px;
+    justify-content: center;
+    padding-left: 20px;
+    font-size: 17px;
+}
+.no_of_plays
+{    
+    display: inline-block;
+    padding-right: 10px;  
+      
+}
+#salute
+{
+    text-align: center;
+    font-size: 17px;
+}

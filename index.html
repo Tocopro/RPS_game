@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<!--javascript input-------->
+<script src="index.js"></script>
+<body>
+    <!-------Heading describing the name of the game --------->
+    <h1>HOW TO PLAY ROCK-PAPER-SCISSORS</h1>
+    <!--------------paragraph describing how the game is played --------->
+
+    <p id="text1">Play Rock Paper and ScissorsThe game is played with three <br>
+        possible hand signals that represent a rock, paper, and scissors.<br>
+        The rock is a closed fist; paper is a flat hand with fingers and thumb<br>
+        extended and the palm facing downward; and scissors is a fist with the <br>          
+        index and middle fingers fully extended toward the opposing player.<br> 
+        Rock wins against scissors; paper wins against rock; and scissors wins<br>
+        against paper. If both players throw the same hand signal, it is considered<br>
+        a tie, and play resumes until there is a clear winner.
+    </p>    
+    <section>
+        <!----------Players section where the player will make a choice of play------>
+        
+        <form id="container1">
+            <label id="rock1" for="Rock">Rock</label>
+            <input id="rock" type="button" value="Rock" onclick="activate1()"/>
+            <label id="paper1" for="Paper">Paper</label>
+            <input id="paper" type="button" value="Paper" onclick="activate2()"/>
+            <label id="scissors1" for="Scissors">Scissors</label>
+            <input id="scissors" type="button" value="Scissors" onclick="activate3()"/>
+        </form>
+        <!-------javascript output display of the players and computer scores------>
+        <div class="container2">
+          <p class="computer_score">Computer Score </p>
+          <p class="computer_score" id="computer_score"></p>
+          <p class="middle_space"></p>
+          <p class="player_score">Player Score </p>
+          <p class="player_score" id="player_score"></p>       
+        </div> 
+        <!----------javascript output display Number of plays count ------->
+        <div class="container3">
+          <p class="no.of_plays">Number of Plays: </p>
+          <p class="middle_space1"></p>
+          <p class="no_of_plays" id="no_of_plays"></p>
+        </div>
+        <div>
+            <p id="salute">
+                Thank you for playing
+            </p>
+        </div>     
+           
+        
+        
+    </section>
+    
+</body>
+</html>
